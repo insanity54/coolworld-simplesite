@@ -1,0 +1,24 @@
+{
+  "name": "coolworld-simplesite",
+  "homepage": "https://github.com/insanity54/coolworld-simplesite",
+  "authors": [
+    "Chris Grimmett <chris@grimtech.net>"
+  ],
+  "description": "coolworld website",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5",
+    "animo.js": "~1.0.3"
+  }
+}
