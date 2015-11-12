@@ -55,7 +55,7 @@ function check() {
       console.log('error received from makerequests- ' + err);
       console.log(err);
       $("#status-text").html('<span class="red"><i id="emblem" class="glyphicon glyphicon-flag"></i></span> Problem connecting to status server.');
-      $("#players-text").html('This can happen if you use a script blocker like privacy badger, script safe, etc. For this status indicator to work, this page must be able to access mc.api.ca');
+      $("#players-text").html('This can happen if you use a script blocker like privacy badger, script safe, etc. For this status indicator to work, this page must be able to access mcapi.ca');
       return tryLater();
     }
     var playerCount = results.playerCount || 0;
